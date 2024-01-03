@@ -34,7 +34,7 @@ while True:
         s = 'Physics,Maths,Computer Science,Typography,Arabic'
         s = s.split(",")
         print("Marks can be entered in format [\033[95m SCORED MARKS/TOTAL MARK\033[0m]")
-        w = 8
+        w = 7
         for sub in s:
             mark = f'{w}/25'
             itrnl = '10/10'
